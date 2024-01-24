@@ -3,27 +3,65 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>이력서</title>
+	<title>resume</title>
 <style>
-div { background: #d3d3d3; }
-nav ul {
+div { 
+
+}
+
+nav {
+	border-top: 2px solid #ccc;
+	padding: 10px;
+}
+
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
+
+li {
+	display: inline-block;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+	color: white;
+}
+
+h2 {
+	font-size: 18px;
+	color: white;
+}
+
+h3 {
+	font-size: 16px;
+	color: white;
+}
+
+section {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-top: 2px solid #ccc;
+}
+
 </style>
 </head>
-<body>
+<body style="background-color: #373844;">
 	<header>
-		<h1>이력서</h1>
-		<h2>[이름]</h2>
-		<h3>[연락처]</h3>
+		<h1 style="text-align: center;">이력서</h1>
     	</header>
 
     <nav>
-	    <ul>
+	    <ul style="text-align: center; padding-right: 30px;">
 		    <li><a href="#profile">프로필</a></li>
-		    <li><a href="education">학력</a></li>
+		    <li><a href="#education">학력</a></li>
 		    <li><a href="#experience">경력</a></li>
 		    <li><a href="#skills">기술</a></li>
 	    </ul>
@@ -32,8 +70,10 @@ nav ul {
     <article>
 	    <section id="profile">
 		    <div><h2>프로필</h2></div>
-		    <p>
-		    	[프로필 내용]
+			<h3>심규혁</h3>
+		    <p style="color: white;">
+		    	프로그래밍에 관심이 있어 컴퓨터공학을 전공하였고,
+				현재 백엔드 한화시스템에서 학습하고 있습니다.
 		    </p>
 	    </section>
 
@@ -41,9 +81,8 @@ nav ul {
 		    <div><h2>학력</h2></div>
 		    <ul>
 			    <li>
-				    <h3>[학교명] [학과] [학위] [졸업일]</h3>
+				    <h3>창원대학교 컴퓨터공학전공</h3>
 				    <p>
-				    	[학력 내용]
 				    </p>
 			    </li>
 		    </ul>
@@ -53,9 +92,10 @@ nav ul {
 		    <div><h2>경력</h2></div>
 		    <ul>
 			    <li>
-			    <h3>[회사명] [직책] [근무기간] [주요 업무]</h3>
+					<h3>없음</h3>
+			    <!-- <h3>[회사명] [직책] [근무기간] [주요 업무]</h3> -->
 			    <p>
-			    	[경력 내용]
+			    	<!-- [경력 내용] -->
 			    </p>
 			    </li>
 		    </ul>
@@ -65,15 +105,15 @@ nav ul {
 		    <div><h2>기술</h2></div>
 		    <ul>
 			    <li>
-				    <h3>[기술명] [숙련도]</h3>
+				    <h3> C, 자바, 스프링</h3>
+					
 			    </li>
 		    </ul>
 	    </section>
 
     </article>
-
     <footer>
-	    <p>[사이트 주소] © [년도]</p>
+	    <p>https://shim.web.app/resume.html © 2024</p>
     </footer>
 
 </body>
