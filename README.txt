@@ -1,30 +1,44 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Title
+<img src="https://github.com/shimguh/shimguh.github.io/assets/80744883/8713b704-370e-4b4b-a98a-e7c15d12a795" width = 500>
 
+### How to Contribute
+- WSL Ubuntu 22.04 LTS
+- vim
+- html/css
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+### How to Deploy
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+#### STG dev (shim.web.app)
 
-(* = not included)
+#### STG prd (shimguh.github.io)
 
-AJ
-aj@lkn.io | @ajlkn
+|STG|BRANCH|TRIGGER|URL|
+|------|---|---|---|
+|DEV|Branch of PR|manual firebase cmd*|[shim.web.app](https://shim.web.app)|
+|PRD|main|Auto Github Action|[shimguh.github.io](https://shimguh.github.io)|
+````bash
+# manual firebase cmd*
+$ firebase deploy
 
+=== Deploying to 'project-2089b'...
 
-Credits:
+i  deploying hosting
+i  hosting[shim]: beginning deploy...
+i  hosting[shim]: found 180 files in /
+✔  hosting[shim]: file upload complete
+i  hosting[shim]: finalizing version...
+✔  hosting[shim]: version finalized
+i  hosting[shim]: releasing new version...
+✔  hosting[shim]: release complete
 
-	Demo Images:
-		Unsplash (unsplash.com)
+✔  Deploy complete!
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Project Console: https://console.firebase.google.com/project/project-2089b/overview
+Hosting URL: https://shim.web.app
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+````
+
+### Thanks to design template
+
+THNAK YOU!
+- https://html5up.net/dimension
