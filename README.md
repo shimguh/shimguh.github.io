@@ -40,5 +40,5 @@ Hosting URL: https://shim.web.app
 
 ### Thanks to design template
 
-THNAK YOU!
+THANK YOU!
 - https://html5up.net/dimension
